@@ -2,129 +2,125 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tanvir's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="about-container">
-            <div class="about-text">
-                <h1>Hello, I'm Tanvir!</h1>
-                <p>Computer Science & Engineering Student</p>
-                <p>Passionate about technology and software development. Currently studying at North Western University,
-                    Khulna, and exploring new ways to solve real-world problems through code and innovation.</p>
-                <a href="#contact" class="contact-btn">Contact Me</a>
-            </div>
-            <div class="about-photo">
-                <img src="img2.jpg" alt="Tanvir">
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-        <div class="content">
-            <h2>Education</h2>
+    <header>
+        <nav>
             <ul>
-                <li>
-                    <h3>B.Sc in Computer Science & Engineering (Currently Studying)</h3>
-                    <p>North Western University, Khulna (2023 - Present)</p>
-                    <p>CGPA: 3.68, A+ in almost all lab courses.</p>
-                </li>
-                <li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About -->
+        <section id="about">
+            <div class="container about">
+                <div class="about-text">
+                    <h1>Hello, I'm Tanvir</h1>
+                    <p class="subtitle">CSE Student & Software Developer</p>
+                    <p>
+                        I'm a passionate Computer Science student at North Western University, Khulna.
+                        I love building solutions that solve real-world problems using clean, efficient code.
+                    </p>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+                <div class="about-photo">
+                    <img src="img2.jpg" alt="Tanvir" />
+                </div>
+            </div>
+        </section>
+        <!-- education -->
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+
+                <div class="edu-item">
+                    <h3>B.Sc. in Computer Science & Engineering</h3>
+                    <p>North Western University, Khulna (2020 – Present)</p>
+                    <p>CGPA: 3.71</p>
+                    <p><em>A+ in all lab courses in 3rd and 4th year</em></p>
+                    <p><em>Thesis: “Cybersecurity Threat Modeling Using Machine Learning”</em></p>
+                </div>
+
+                <div class="edu-item">
                     <h3>Higher Secondary Certificate (HSC)</h3>
-                    <p>Year: 2020</p>
-                    <p>GPA: 4.83</p>
-                </li>
-                <li>
+                    <p>Year: 2020 | GPA: 5.00</p>
+                </div>
+
+                <div class="edu-item">
                     <h3>Secondary School Certificate (SSC)</h3>
-                    <p>Year: 2018</p>
-                    <p>GPA: 5.00</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="content">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: C++, Python, Java</li>
-                <li>Web Development: HTML, CSS, JavaScript, React</li>
-                <li>Database Management: MySQL, MongoDB</li>
-                <li>Version Control: Git, GitHub</li>
-                <li>Tools: VS Code, Eclipse, IntelliJ</li>
-                <li>Frameworks: Django, Node.js</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Work Section -->
-    <section id="work">
-        <div class="content">
-            <h2>My Work</h2>
-            <div class="projects">
-                <div class="project">
-                    <img src="project1.jpg" alt="Project 1">
-                    <p>Portfolio Website</p>
-                    <p>A personal portfolio website built with HTML, CSS, and JavaScript. This project highlights my web
-                        development skills and serves as an online resume.</p>
-                </div>
-                <div class="project">
-                    <img src="project2.jpg" alt="Project 2">
-                    <p>Task Management App</p>
-                    <p>A task management app built with React and Node.js. It helps users manage their tasks and
-                        deadlines efficiently with features like task prioritization and reminders.</p>
-                </div>
-                <div class="project">
-                    <img src="project3.jpg" alt="Project 3">
-                    <p>E-commerce Website</p>
-                    <p>An e-commerce website developed using Django and PostgreSQL. This platform allows users to browse
-                        products, place orders, and manage their accounts.</p>
-                </div>
-                <div class="project">
-                    <img src="project4.jpg" alt="Project 4">
-                    <p>Weather Forecast App</p>
-                    <p>A weather forecast application built with Python and Flask, which fetches real-time weather data
-                        and displays forecasts based on the user's location.</p>
+                    <p>Year: 2018 | GPA: 5.00</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="content">
-            <h2>Contact Me</h2>
 
-            <div class="contact-info">
-                <h3>Or Reach Me At:</h3>
+
+
+        <!-- Skills -->
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+
+                <div class="skill-item">Programming Languages: C++, Python, Java</div>
+                <div class="skill-item">Web Development: HTML, CSS, JavaScript, React</div>
+                <div class="skill-item">Database Management: MySQL, MongoDB</div>
+                <div class="skill-item">Version Control: Git, GitHub</div>
+                <div class="skill-item">Tools: VS Code, Eclipse, IntelliJ</div>
+                <div class="skill-item">Frameworks: Django, Node.js</div>
+            </div>
+        </section>
+
+
+        <!-- Work -->
+        <section id="work">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects">
+                    <div class="project">
+
+                        <h4>Portfolio Website</h4>
+                        <p>A responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div class="project">
+                        <h4>Task Manager</h4>
+                        <p>Built with React and Node.js. Helps manage daily tasks and reminders efficiently.</p>
+                    </div>
+                    <div class="project">
+                        <h4>E-commerce Site</h4>
+                        <p>Developed using Django and PostgreSQL with full shopping functionality.</p>
+                    </div>
+                    <div class="project">
+                        <h4>Weather App</h4>
+                        <p>A Python Flask app showing real-time weather data based on location.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
                 <p><strong>Email:</strong> <a href="mailto:tanvir@example.com">tanvir@example.com</a></p>
                 <p><strong>Phone:</strong> +8801XXXXXXXXX</p>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Tanvir</p>
+        <p>&copy; 2025 Tanvir. All rights reserved.</p>
     </footer>
-
 </body>
 
 </html>
